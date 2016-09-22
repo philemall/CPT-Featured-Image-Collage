@@ -53,3 +53,4 @@ function create_member_collage($post_id) {
 }
 
 add_action( 'save_post', 'create_member_collage' );
+add_action( 'delete_post', 'create_member_collage' );
